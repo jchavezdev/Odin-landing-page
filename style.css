@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.general-section-hf{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    width: 1400px; 
+    height: 100px; 
+    box-sizing: border-box; 
+    border: 5px;
+}
+
+.general-section{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    width: 1400px; 
+    height: 400px; 
+    box-sizing: border-box; 
+    border: 5px;
+}
+
+/*Header*/
+.header{
+    background-color: #1F2937;
+    width: max-content;
+}
+
+.header-text{
+    color: white;
+}
+
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-a{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box; 
+    width: 500px; 
+    margin-right: 140px;
+    border: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*Section 1*/
+.section-1{
+    background-color: #1F2937;
+    padding: 4rem;
+   /*height: 400px;
+    width: max-content;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.dark-blue-color{
+    background-color: #1F2937;
+}
+
+.section-1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.section-1-con1{
+    height: 280px;
+    width: 400px;
+    color: white;
+    border: 5px;
+}
+
+.section-1-con1 h1{
+    margin : 0px;
+}
+
+.section-1-con1 p{
+    margin : 1px;
+}
+
+.section-1-con1 button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.section-1-con2{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    width: 550px;
+    color: white;
+    border: 5px solid purple;
+}
+
+/*Section 2*/
+.section-2{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    width: 1400px; 
+    height: max-content; 
+    box-sizing: border-box; 
+    border: 5px;
+}
+
+.section-2-h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section-2-images{
+    padding: 1rem;
+    margin: 0 100px;
+    display: flex;
+    align-items: stretch;
+}
+
+.section-2-rectangle{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section-2-square{
+    height: 200px;
+    width: 200px;
+    color: white;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+/*Section 3*/
+.grey-color{
+    background-color: #e5e7eb;
+}
+
+.section-3{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    width: 1400px; 
+    height: max-content; 
+    box-sizing: border-box; 
+    border: 5px solid #e5e7eb;
+}
+
+.section-3-con1{
+    margin: 170px 230px 30px 230px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.section-3-con2{
+    font-size: 26px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-bottom: 00px;
+}
+
+/*section 4*/
+.section-4{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    width: 1400px; 
+    height: max-content; 
+    box-sizing: border-box; 
+    border: 5px;
+
+}
+
+.section-4-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 1400px;
+    margin: 100px 0px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.section-4-con1{
+    color: white;
+    font-size: 20px;
+    margin-left: 220px;
+}
+
+.section-4-con2 button{
+    background-color: #3882F6;
+  border: solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 300px;
+}
+
+/*footer*/
+.footer{
+    height: 100px; 
+    color: white;
+    font-size: 20px;
+    background-color: #1F2937;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+.footer-text p{
+    text-align: center;
+}
